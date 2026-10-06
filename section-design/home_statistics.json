@@ -1,0 +1,7 @@
+{
+  "description": "pattern     media-matrix / stats\nsurface     dark\nkit         ambient cyan orb centered behind counter values\nform        Columns 1\u201312 present the statistics heading, followed by a single full-width horizontal glass panel partitioned by vertical hairlines into 5 metric cells with large animated counters and descriptive caption labels. On mobile, metrics arrange into a 2x2 grid with the fifth metric centered underneath.\ncopy\n  eyebrow      BY THE NUMBERS\n  heading      Four Years of Impact\n  stat-1-val   4\n  stat-1-lbl   Years of Dedicated Study\n  stat-2-val   18+\n  stat-2-lbl   Projects Engineered\n  stat-3-val   25+\n  stat-3-lbl   University & Tech Events Organized\n  stat-4-val   8\n  stat-4-lbl   Honors & Competition Awards\n  stat-5-val   6\n  stat-5-lbl   Industry Certifications Earned\nmotion      Numeric counters animate upward from zero upon scroll entry at 150ms over 1200ms duration using ease-out easing.\nplan check  heading placed; animated counters for years (4), projects (18+), events (25+), achievements (8) and certifications (6) placed.",
+  "layout_description": "Five-column horizontal metric strip with vertical dividers and centered numerical typography.",
+  "surface": "dark",
+  "pattern": "media-matrix / stats",
+  "kit": "ambient cyan orb centered behind counter values"
+}

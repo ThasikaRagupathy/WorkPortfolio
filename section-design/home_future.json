@@ -1,0 +1,7 @@
+{
+  "description": "pattern     stage-callout / cta\nsurface     dark\nkit         signature centered above heading\nform        Columns 1\u201312 arrange an expansive cinematic call to action with a commanding editorial headline, contemplative supporting copy, and an interactive primary action button with magnetic cursor attraction. On mobile, elements stack with centered alignment.\ncopy\n  eyebrow      THE NEXT CHAPTER\n  heading      The Story Doesn't End Here.\n  supporting   The degree is complete, but the engineering journey is just accelerating. I am actively seeking high-impact software engineering roles, collaborative ventures, and transformative challenges worldwide.\n  cta-button   Chapter Next \u2192\nmotion      Text and button reveal at 100ms with translate-Y 20px and subtle background glow intensification.\nplan check  heading \"The Story Doesn't End Here.\" placed; supporting line placed; \"Chapter Next \u2192\" button placed.",
+  "layout_description": "Single centered cinematic column with large display heading, body narrative, and prominent interactive CTA button.",
+  "surface": "dark",
+  "pattern": "stage-callout / cta",
+  "kit": "signature centered above heading"
+}

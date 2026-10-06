@@ -1,0 +1,7 @@
+{
+  "description": "pattern     dock-strip / footer\nsurface     dark\nkit         none\nform        Columns 1\u201312 arrange an understated closing footer with student name, full degree affiliation line, horizontal quick navigation links, direct social and download shortcuts, and the current legal copyright notice. On mobile, elements stack cleanly with generous tap padding.\ncopy\n  student-name Tharindu Perera\n  degree-line  BICT (Hons) in Information & Communication Technology \u2014 Faculty of Technological Studies, University of Vavuniya\n  quick-journey Journey\n  quick-proj   Projects\n  quick-cont   Contact\n  link-li      LinkedIn\n  link-gh      GitHub\n  link-mail    tharindu.perera@example.com\n  link-cv      Download CV\n  copyright    \u00a9 2026 Tharindu Perera. All rights reserved. Crafted as a documentary of four transformative years.\nmotion      Footer elements render calmly in place without entrance motion.\nplan check  name placed; degree line placed; quick links (Journey, Projects, Contact) placed; LinkedIn, GitHub, email, CV download placed; copyright placed.",
+  "layout_description": "Full-width multi-tier footer with brand metadata top tier, navigation links mid tier, and copyright baseline.",
+  "surface": "dark",
+  "pattern": "dock-strip / footer",
+  "kit": "none"
+}

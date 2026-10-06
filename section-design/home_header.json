@@ -1,0 +1,7 @@
+{
+  "description": "pattern     dock-strip / header\nsurface     dark\nkit         none\nform        Header bar spans full width fixed at the top with a blurred glass background, housing the student logotype on the left, a centered desktop navigation menu, and a magnetic primary button on the right. On mobile, the navigation links collapse into an accessible slide-over drawer triggered by a minimal hamburger button.\ncopy\n  logo         THARINDU PERERA\n  nav-journey  Journey\n  nav-faculty  Faculty\n  nav-achieve  Achievements\n  nav-projects Projects\n  nav-memories Memories\n  nav-contact  Contact\n  cta-button   Explore My Journey\nmotion      Container fades in at 0ms with backdrop blur ramp; navigation elements stagger at 40ms intervals up to 240ms.\nplan check  logo/name placed at left; nav links (Journey, Faculty, Achievements, Projects, Memories, Contact) placed in center menu; \"Explore My Journey\" button placed at right action slot.",
+  "layout_description": "One full-width sticky navigation bar with left brand wordmark, center link group, and right action button.",
+  "surface": "dark",
+  "pattern": "dock-strip / header",
+  "kit": "none"
+}

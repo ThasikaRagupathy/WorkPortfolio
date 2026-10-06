@@ -1,0 +1,7 @@
+{
+  "description": "pattern     bento-grid / contact\nsurface     dark\nkit         none\nform        Columns 1\u20135 host the heading and personal closing statement; columns 6\u201312 display direct contact touchpoints including interactive LinkedIn and GitHub buttons, a direct mail channel, and a prominent CV download button. On mobile, the contact links stack in a vertical list.\ncopy\n  eyebrow      CONNECT & COLLABORATE\n  heading      Let\u2019s Build What\u2019s Next\n  closing-line Whether you have an ambitious engineering role, a groundbreaking venture, or simply want to talk systems architecture \u2014 my inbox is always open.\n  btn-linkedin LinkedIn Profile\n  btn-github   GitHub Repositories\n  email-addr   tharindu.perera@example.com\n  btn-cv       Download CV\nmotion      Contact cards reveal with stagger of 60ms; CV download button features an ambient pulsing border highlight.\nplan check  heading placed; short closing line placed; LinkedIn button placed; GitHub button placed; email address placed; \"Download CV\" button placed.",
+  "layout_description": "Two-column split with heading and message on the left and interactive connection buttons and CV download on the right.",
+  "surface": "dark",
+  "pattern": "bento-grid / contact",
+  "kit": "none"
+}
