@@ -16,9 +16,9 @@
     "jsx": "react-jsx",
     "types": ["vite/client"],
     "strict": true,
-    "ignoreDeprecations": "6.0",
-    "baseUrl": ".",
-    "paths": { "@/*": ["src/*"] }
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["App.tsx", "main.tsx", "src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"]
 }
