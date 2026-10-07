@@ -212,7 +212,7 @@ export default function Memories() {
       data-nav="dark"
       className="relative overflow-hidden bg-background text-foreground py-20 lg:py-28"
     >
-      <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
+      <div className="mx-auto max-w-330 px-5 sm:px-8">
 
         {/* Section Label */}
         <div className="mb-4 flex items-center gap-3">
@@ -292,7 +292,7 @@ export default function Memories() {
       {/* FULL SCREEN GALLERY */}
       {selectedPhoto && selectedIndex !== null && (
         <div
-          className="fixed inset-0 z-[100] flex h-screen w-screen items-center justify-center bg-black/95 backdrop-blur-xl"
+          className="fixed inset-0 z-100 flex h-screen w-screen items-center justify-center bg-black/95 backdrop-blur-xl"
           role="dialog"
           aria-modal="true"
           aria-label="Memory gallery"
