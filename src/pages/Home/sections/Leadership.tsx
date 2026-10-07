@@ -30,7 +30,7 @@ const stepsData: StepItem[] = [
     description:
       "Joined university tech societies with an open mind, eager to absorb best practices and contribute to grassroots initiatives.",
     image: {
-      src: "src/image/Libi3.jpg",
+      src: "/image/Libi3.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/leadership_freshman_member.png-wvc-srcset",
       sizes: "(max-width: 768px) 100vw, 420px",
       alt: "Leadership development from society member to leader - university society onboarding",
@@ -43,7 +43,7 @@ const stepsData: StepItem[] = [
     description:
       "Stepped forward to manage logistical operations, event coordination, and participant support for faculty gatherings.",
     image: {
-      src: "src/image/Libi15.jpg",
+      src: "/image/Libi15.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/leadership_event_volunteer.png-wvc-srcset",
       sizes: "(max-width: 768px) 100vw, 420px",
       alt: "Leadership development through event logistics and attendee registration",
@@ -56,7 +56,7 @@ const stepsData: StepItem[] = [
     description:
       "Spearheaded university-wide technical workshops, coordinating guest speakers, schedules, and lab infrastructure.",
     image: {
-      src: "src/image/Libi17.jpg",
+      src: "/image/Libi17.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/leadership_workshop_organizer.png-wvc-srcset",
       sizes: "(max-width: 768px) 100vw, 420px",
       alt: "Leadership development through technical workshop setup and keynote coordination",
@@ -69,7 +69,7 @@ const stepsData: StepItem[] = [
     description:
       "Directed software development teams through full sprint cycles, managing repositories, code reviews, and project milestones.",
     image: {
-      src: "src/image/Libi40.jpg",
+      src: "/image/Libi40.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/leadership_sprint_lead.png-wvc-srcset",
       sizes: "(max-width: 768px) 100vw, 420px",
       alt: "Leadership development through a software team code review session",
@@ -82,7 +82,7 @@ const stepsData: StepItem[] = [
     description:
       "Served as a mentor and executive society officer, establishing strategic vision, community partnerships, and legacy handovers.",
     image: {
-      src: "src/image/Libi50.jpg",
+      src: "/image/Libi50.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/leadership_executive_address.png-wvc-srcset",
       sizes: "(max-width: 768px) 100vw, 420px",
       alt: "Leadership development through faculty engagement and society stewardship",

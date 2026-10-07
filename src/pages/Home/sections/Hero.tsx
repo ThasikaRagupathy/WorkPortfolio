@@ -72,7 +72,7 @@ export default function Hero() {
               {/* Aspect ratio frame 4:5 */}
               <div className="relative aspect-4/5 w-full overflow-hidden bg-muted">
                 <img
-                  src="src/image/Libi1.jpg"
+                  src="/image/Libi1.jpg"
                 //  data-wvc-srcset="https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/hero_tharindu_perera_portrait.png-wvc-srcset"
                   //data-wvc-sizes="https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/hero_tharindu_perera_portrait.png-wvc-sizes"
                   alt="Portrait of Jeyasingam Azrikam Libisanan at the University of Vavuniya"

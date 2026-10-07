@@ -30,7 +30,7 @@ const MILESTONES: Milestone[] = [
     reflection:
       "I arrived uncertain of my technical voice, intimidated by the sheer depth of computer science and wondering if I could stand out.",
     image: {
-      src: "src/image/Fac1.jpg",
+      src: "/image/Fac1.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_initial_spark.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_initial_spark.png-wvc-sizes",
       alt: "A first-year student arriving on the University of Vavuniya campus"
@@ -43,7 +43,7 @@ const MILESTONES: Milestone[] = [
     reflection:
       "I realized that bugs and compile failures were not signs of inadequacy, but the exact mechanism through which an engineer is forged.",
     image: {
-      src: "src/image/Libi62.jpg",
+      src: "/image/Libi62.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_embracing_friction.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_embracing_friction.png-wvc-sizes",
       alt: "Late night code editing and debugging session on system software"
@@ -56,7 +56,7 @@ const MILESTONES: Milestone[] = [
     reflection:
       "I learned that the best software is built through empathy, teamwork, and clear communication rather than isolated solo hacking.",
     image: {
-      src: "src/image/Libi46.jpg",
+      src: "/image/Libi46.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_expanding_horizon.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_expanding_horizon.png-wvc-sizes",
       alt: "Collaborative tech hackathon and architectural whiteboarding session"
@@ -69,7 +69,7 @@ const MILESTONES: Milestone[] = [
     reflection:
       "I leave the University of Vavuniya with grounded confidence, battle-tested technical discipline, and an insatiable hunger to build systems that matter.",
     image: {
-      src: "src/image/Libi57.jpg",
+      src: "/image/Libi57.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_ready_horizon.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/transformation_ready_horizon.png-wvc-sizes",
       alt: "A BICT graduate standing on the University of Vavuniya campus"

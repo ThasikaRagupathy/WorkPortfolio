@@ -14,6 +14,7 @@ import Future from "./sections/Future"
 import Contact from "./sections/Contact"
 import Footer from "../../reusable_sections/Footer"
 
+
 export default function HomePage() {
 
   return (

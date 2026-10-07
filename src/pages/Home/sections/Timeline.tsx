@@ -25,7 +25,7 @@ const STAGES: TimelineStage[] = [
     reflection:
       "Stepping onto the Vavuniya campus as a fresher, navigating initial algorithms, foundational logic, and the uncharted terrain of higher technology.",
     image: {
-      src: "src/image/Libi37.jpg",
+      src: "/image/Libi37.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_01_matriculation.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_01_matriculation.png-wvc-sizes",
       alt: "Jeyasingam Azrikam Libisanan during first-year university orientation and foundational programming lab at University of Vavuniya",
@@ -38,7 +38,7 @@ const STAGES: TimelineStage[] = [
     reflection:
       "Diving deep into software architectures, full-stack environments, late-night debugging sessions, and collaborative hackathons with peers.",
     image: {
-      src: "src/image/Libi21.jpg",
+      src: "/image/Libi21.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_02_computer_lab.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_02_computer_lab.png-wvc-sizes",
       alt: "Late-night collaborative software development and hackathon sessions in the faculty computer lab",
@@ -51,7 +51,7 @@ const STAGES: TimelineStage[] = [
     reflection:
       "Stepping into project leadership, tackling complex distributed engineering challenges, and guiding team dynamics under real deadline pressures.",
     image: {
-      src: "src/image/Libi22.jpg",
+      src: "/image/Libi22.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_03_team_leadership.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_03_team_leadership.png-wvc-sizes",
       alt: "Leading peer engineering teams through technical reviews and sprint planning sessions",
@@ -64,7 +64,7 @@ const STAGES: TimelineStage[] = [
     reflection:
       "Synthesizing four years of discipline into capstone engineering, research defense, and stepping forward ready for industry-grade impact.",
     image: {
-      src: "src/image/Libi39.jpg",
+      src: "/image/Libi39.jpg",
       srcset: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_04_capstone_defense.png-wvc-srcset",
       sizes: "https://wpvc-images.s3.us-east-1.amazonaws.com/images/1820360/img/vavuniya_year_04_capstone_defense.png-wvc-sizes",
       alt: "Final BICT honours capstone defense presentation to academic panel and tech industry evaluators",

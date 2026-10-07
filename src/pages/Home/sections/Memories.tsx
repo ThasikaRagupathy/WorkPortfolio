@@ -31,7 +31,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-1",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi2.jpg",
+      src: "/image/Libi2.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Late-night algorithmic debates in the campus library at University of Vavuniya",
@@ -41,7 +41,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-2",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi56.jpg",
+      src: "/image/Libi56.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Freshers welcome ceremony at the faculty auditorium",
@@ -51,7 +51,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-3",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi27.jpg",
+      src: "/image/Libi27.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Whiteboard sprint during the national 24-hour hackathon",
@@ -61,7 +61,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-4",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi32.jpg",
+      src: "/image/Libi32.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Configuring server clusters in the advanced networking lab",
@@ -71,7 +71,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-5",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi19.jpg",
+      src: "/image/Libi19.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Celebration following our third-year software project defense",
@@ -81,7 +81,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-6",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi10.jpg",
+      src: "/image/Libi10.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Annual technological symposium stage presentation",
@@ -91,7 +91,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-7",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi25.jpg",
+      src: "/image/Libi25.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Quiet evening study session under the Vavuniya campus trees",
@@ -101,7 +101,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-8",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi45.jpg",
+      src: "/image/Libi45.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Collaborative robotics workshop testing microcontroller rigs",
@@ -111,7 +111,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-9",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi40.jpg",
+      src: "/image/Libi40.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Inter-faculty sports meet camaraderie and relay victories",
@@ -121,7 +121,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-10",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi53.jpg",
+      src: "/image/Libi53.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Volunteer coding clinic for regional school students",
@@ -131,7 +131,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-11",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi14.jpg",
+      src: "/image/Libi14.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Faculty research symposium research poster presentation",
@@ -141,7 +141,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-12",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi28.jpg",
+      src: "/image/Libi28.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Final semester photo with mentors, professors, and batchmates",
@@ -151,7 +151,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-12",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi30.jpg",
+      src: "/image/Libi30.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Final semester photo with mentors, professors, and batchmates",
@@ -161,7 +161,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-12",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi58.jpg",
+      src: "/image/Libi58.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Final semester photo with mentors, professors, and batchmates",
@@ -171,7 +171,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-12",
     aspect: "aspect-[16/9]",
     image: {
-      src: "src/image/Libi44.jpg",
+      src: "/image/Libi44.jpg",
       sizes:
         "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
       alt: "Final semester photo with mentors, professors, and batchmates",
