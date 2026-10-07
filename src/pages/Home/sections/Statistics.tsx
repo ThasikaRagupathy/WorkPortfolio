@@ -23,7 +23,7 @@ const STATS_DATA: StatItem[] = [
   },
   {
     id: "stat-2",
-    target: 18,
+    target: 7,
     suffix: "+",
     label: "Projects Engineered",
   },
@@ -35,13 +35,13 @@ const STATS_DATA: StatItem[] = [
   },
   {
     id: "stat-4",
-    target: 8,
-    suffix: "",
+    target: 5,
+    suffix: "+",
     label: "Honors & Competition Awards",
   },
   {
     id: "stat-5",
-    target: 6,
+    target: 1,
     suffix: "",
     label: "Industry Certifications Earned",
   },

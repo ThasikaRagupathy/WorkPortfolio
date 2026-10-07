@@ -143,6 +143,150 @@ const GALLERY_PHOTOS: PhotoItem[] = [
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi7.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi64.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi65.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi66.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi67.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi71.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi70.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi69.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi72.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi73.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi74.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi75.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi76.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi77.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi78.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi79.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi80.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+   {
+    id: "mem-17",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi39.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
 ];
 
 export default function Memories() {
