@@ -1,20 +1,17 @@
-"use client";
-
+"use client"
 import * as React from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-import { Expand, Sparkles, X } from "lucide-react";
+import {
+  Expand,
+  Sparkles,
+  X,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 
 import { Button } from "../../../components/ui/button";
-
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from "../../../components/ui/dialog";
 
 interface PhotoItem {
   id: string;
@@ -22,7 +19,6 @@ interface PhotoItem {
   image: {
     src: string;
     sizes: string;
-    alt: string;
   };
 }
 
@@ -32,9 +28,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi2.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Late-night algorithmic debates in the campus library at University of Vavuniya",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -42,9 +36,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi56.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Freshers welcome ceremony at the faculty auditorium",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -52,9 +44,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi27.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Whiteboard sprint during the national 24-hour hackathon",
+      sizes: "(max-width: 640px, 100vw)",
     },
   },
   {
@@ -62,9 +52,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi32.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Configuring server clusters in the advanced networking lab",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -72,9 +60,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi19.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Celebration following our third-year software project defense",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -82,9 +68,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi10.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Annual technological symposium stage presentation",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -92,9 +76,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi25.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Quiet evening study session under the Vavuniya campus trees",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -102,9 +84,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi45.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Collaborative robotics workshop testing microcontroller rigs",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -112,9 +92,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi40.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Inter-faculty sports meet camaraderie and relay victories",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -122,9 +100,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi53.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Volunteer coding clinic for regional school students",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -132,9 +108,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi14.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Faculty research symposium research poster presentation",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
@@ -142,47 +116,95 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi28.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Final semester photo with mentors, professors, and batchmates",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-12",
+    id: "mem-13",
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi30.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Final semester photo with mentors, professors, and batchmates",
-    },
-  },
-{
-    id: "mem-12",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi58.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Final semester photo with mentors, professors, and batchmates",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-12",
+    id: "mem-14",
+    aspect: "aspect-[16/9]",
+    image: {
+      src: "/image/Libi58.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-15",
     aspect: "aspect-[16/9]",
     image: {
       src: "/image/Libi44.jpg",
-      sizes:
-        "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      alt: "Final semester photo with mentors, professors, and batchmates",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
 ];
 
 export default function Memories() {
-  const [selectedPhoto, setSelectedPhoto] = useState<PhotoItem | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   const [galleryParent] = useAutoAnimate<HTMLDivElement>();
+
+  const selectedPhoto =
+    selectedIndex !== null ? GALLERY_PHOTOS[selectedIndex] : null;
+
+  const closeGallery = () => {
+    setSelectedIndex(null);
+  };
+
+  const showPrevious = () => {
+    if (selectedIndex === null) return;
+
+    setSelectedIndex(
+      selectedIndex === 0
+        ? GALLERY_PHOTOS.length - 1
+        : selectedIndex - 1
+    );
+  };
+
+  const showNext = () => {
+    if (selectedIndex === null) return;
+
+    setSelectedIndex(
+      selectedIndex === GALLERY_PHOTOS.length - 1
+        ? 0
+        : selectedIndex + 1
+    );
+  };
+
+  // Keyboard navigation
+  useEffect(() => {
+    if (selectedIndex === null) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        closeGallery();
+      }
+
+      if (event.key === "ArrowLeft") {
+        showPrevious();
+      }
+
+      if (event.key === "ArrowRight") {
+        showNext();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    // Prevent background scrolling
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [selectedIndex]);
 
   return (
     <section
@@ -190,9 +212,9 @@ export default function Memories() {
       data-nav="dark"
       className="relative overflow-hidden bg-background text-foreground py-20 lg:py-28"
     >
-      <div className="mx-auto max-w-330px px-5 sm:px-8">
+      <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
 
-        {/* Kit: Signature above heading */}
+        {/* Section Label */}
         <div className="mb-4 flex items-center gap-3">
           <span
             className="h-px w-8 bg-primary/70"
@@ -210,36 +232,32 @@ export default function Memories() {
           />
         </div>
 
-        {/* Section Heading */}
+        {/* Heading */}
         <div className="pb-10 border-b border-border">
           <h2 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl text-foreground">
             Memories &amp; Moments
           </h2>
+
+          <p className="mt-3 max-w-xl text-sm text-muted-foreground">
+            A collection of moments, memories, and little pieces of
+            university life.
+          </p>
         </div>
 
-        {/* 12-Item Responsive Masonry Columns with AutoAnimate */}
+        {/* Gallery */}
         <div
           ref={galleryParent}
           className="columns-1 sm:columns-2 lg:columns-3 gap-6 pt-10"
         >
-          {GALLERY_PHOTOS.map((item, i) => (
+          {GALLERY_PHOTOS.map((item, index) => (
             <div
               key={item.id}
-              data-index={i}
               className="break-inside-avoid mb-6"
             >
-              <div
-                role="button"
-                tabIndex={0}
-                onClick={() => setSelectedPhoto(item)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    setSelectedPhoto(item);
-                  }
-                }}
-                aria-label={`View photo: ${item.image.alt}`}
-                className="group relative cursor-pointer overflow-hidden rounded-lg border border-border bg-card shadow-md transition-all duration-200 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+              <button
+                type="button"
+                onClick={() => setSelectedIndex(index)}
+                className="group relative block w-full cursor-pointer overflow-hidden rounded-lg border border-border bg-card shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 <div
                   className={`relative w-full ${item.aspect} overflow-hidden bg-muted`}
@@ -247,69 +265,93 @@ export default function Memories() {
                   <img
                     src={item.image.src}
                     data-wvc-sizes={item.image.sizes}
-                    alt={item.image.alt}
                     loading="lazy"
                     decoding="async"
-                    className="h-full w-full object-cover transition-transform duration-200 ease-out group-hover:scale-105"
+                    className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                   />
 
-                  {/* Corner Expand Indicator */}
+                  {/* Dark hover overlay */}
+                  <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
+
+                  {/* Expand icon */}
                   <div
-                    className="absolute top-3 right-3 flex size-8 items-center justify-center rounded-md border border-border bg-card/80 text-primary opacity-0 backdrop-blur-xs transition-opacity duration-200 group-hover:opacity-100"
+                    className="absolute top-3 right-3 flex size-9 items-center justify-center rounded-md border border-white/20 bg-black/50 text-white opacity-0 backdrop-blur-md transition-all duration-300 group-hover:opacity-100"
                     aria-hidden="true"
                   >
                     <Expand className="size-4" />
                   </div>
+
+                  {/* Bottom label */}
                 </div>
-              </div>
+              </button>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Lightbox Modal */}
-      <Dialog
-        open={!!selectedPhoto}
-        onOpenChange={(open) => {
-          if (!open) setSelectedPhoto(null);
-        }}
-      >
-        <DialogContent className="max-w-4xl p-0 overflow-hidden border-border bg-card text-card-foreground shadow-2xl">
-          {selectedPhoto && (
-            <div className="flex flex-col">
-              <div className="relative max-h-[75vh] w-full overflow-hidden bg-black flex items-center justify-center">
-                <img
-                  src={selectedPhoto.image.src}
-                  data-wvc-sizes="(max-width: 1024px) 100vw, 1200px"
-                  alt={selectedPhoto.image.alt}
-                  className="max-h-[75vh] w-full object-contain"
-                />
-              </div>
-
-              {/* Accessible dialog information - visually hidden */}
-              <DialogHeader className="sr-only">
-                <DialogTitle>Memory photo</DialogTitle>
-
-                <DialogDescription>
-                  {selectedPhoto.image.alt}
-                </DialogDescription>
-              </DialogHeader>
-
-              <div className="p-4 flex justify-end">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => setSelectedPhoto(null)}
-                  className="border-border text-foreground hover:border-primary"
-                >
-                  <X className="size-4 mr-1 text-muted-foreground" />
-                  Close
-                </Button>
-              </div>
+      {/* FULL SCREEN GALLERY */}
+      {selectedPhoto && selectedIndex !== null && (
+        <div
+          className="fixed inset-0 z-[100] flex h-screen w-screen items-center justify-center bg-black/95 backdrop-blur-xl"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Memory gallery"
+        >
+          {/* Top controls */}
+          <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between p-4 sm:p-6">
+            {/* Counter */}
+            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 font-mono text-xs text-white/80 backdrop-blur-md">
+              {selectedIndex + 1} / {GALLERY_PHOTOS.length}
             </div>
-          )}
-        </DialogContent>
-      </Dialog>
+
+            {/* Close */}
+            <button
+              type="button"
+              onClick={closeGallery}
+              aria-label="Close gallery"
+              className="flex size-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-all hover:bg-white/15 hover:scale-105"
+            >
+              <X className="size-5" />
+            </button>
+          </div>
+
+          {/* Previous */}
+          <button
+            type="button"
+            onClick={showPrevious}
+            aria-label="Previous photo"
+            className="absolute left-3 sm:left-6 lg:left-10 z-20 flex size-11 sm:size-14 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white backdrop-blur-md transition-all hover:bg-white/15 hover:scale-105"
+          >
+            <ChevronLeft className="size-6 sm:size-7" />
+          </button>
+
+          {/* Image */}
+          <div className="flex h-full w-full items-center justify-center px-16 py-20 sm:px-24 sm:py-24">
+            <img
+              key={selectedPhoto.id}
+              src={selectedPhoto.image.src}
+              className="max-h-full max-w-full object-contain drop-shadow-2xl select-none"
+              draggable={false}
+            />
+          </div>
+
+          {/* Next */}
+          <button
+            type="button"
+            onClick={showNext}
+            aria-label="Next photo"
+            className="absolute right-3 sm:right-6 lg:right-10 z-20 flex size-11 sm:size-14 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white backdrop-blur-md transition-all hover:bg-white/15 hover:scale-105"
+          >
+            <ChevronRight className="size-6 sm:size-7" />
+          </button>
+
+          {/* Bottom caption */}
+          <div className="absolute bottom-0 left-0 right-0 z-20 flex justify-center px-6 pb-5 sm:pb-7">
+            <div className="max-w-2xl rounded-full border border-white/10 bg-black/40 px-5 py-2.5 text-center text-xs text-white/70 backdrop-blur-md">
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
