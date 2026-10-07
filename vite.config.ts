@@ -8,7 +8,7 @@ const projectRoot = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base:process.env.VITE_BASEPATH || "/https://github.com/ThasikaRagupathy/WorkPortfolio",
+  base:process.env.VITE_BASE_PATH || "/https://github.com/ThasikaRagupathy/WorkPortfolio",
   resolve: { alias: { "@": path.resolve(projectRoot, "src") } },
   build: {
     rollupOptions: {
