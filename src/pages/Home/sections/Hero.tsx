@@ -33,9 +33,11 @@ export default function Hero() {
             </div>
 
             {/* Monumental Two-Line Editorial Headline */}
-              <h1 className="font-serif text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.05]">
-              <span className="block text-foreground">The making of me,</span>
-              <span className="block text-primary mt-1">one memory at a time.</span>
+              <h1 className="font-serif text-2xl font-extrabold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-[1.05]">
+              <span className="block text-foreground">Beyond the classroom,</span>
+              <span className="block text-primary mt-1">Beyond the code,</span>
+              <span className="block text-foreground">Beyond the certificate.</span>
+
             </h1>
 
             {/* Student Identity & University Details Block */}
