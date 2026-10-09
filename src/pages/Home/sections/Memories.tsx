@@ -35,7 +35,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-2",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi2.jpg",
+      src: "/image/Libi85.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -43,7 +43,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-3",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi31.jpg",
+      src: "/image/Libi2.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -51,7 +51,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-4",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi7.jpg",
+      src: "/image/Libi31.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -59,7 +59,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-5",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi8.jpg",
+      src: "/image/Libi7.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -67,7 +67,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-6",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi26.jpg",
+      src: "/image/Libi8.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -75,7 +75,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-7",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi82.jpg",
+      src: "/image/Libi26.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -83,7 +83,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-8",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi83.jpg",
+      src: "/image/Libi82.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -91,7 +91,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-9",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi56.jpg",
+      src: "/image/Libi83.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -99,12 +99,20 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-10",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi53.jpg",
+      src: "/image/Libi56.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
     id: "mem-11",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi53.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-12",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi74.jpg",
@@ -113,7 +121,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
   },
   //events
   {
-    id: "mem-12",
+    id: "mem-13",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi1.jpg",
@@ -121,7 +129,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-13",
+    id: "mem-14",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi3.jpg",
@@ -129,7 +137,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-14",
+    id: "mem-15",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi6.jpg",
@@ -137,7 +145,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-15",
+    id: "mem-16",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi10.jpg",
@@ -145,7 +153,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-16",
+    id: "mem-17",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi14.jpg",
@@ -153,7 +161,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-17",
+    id: "mem-18",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi15.jpg",
@@ -161,7 +169,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-18",
+    id: "mem-19",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi17.jpg",
@@ -169,7 +177,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-19",
+    id: "mem-20",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi18.jpg",
@@ -177,7 +185,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-20",
+    id: "mem-21",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi25.jpg",
@@ -185,7 +193,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-21",
+    id: "mem-22",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi79.jpg",
@@ -193,7 +201,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-22",
+    id: "mem-24",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi69.jpg",
@@ -201,7 +209,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-23",
+    id: "mem-25",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi30.jpg",
@@ -209,7 +217,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
   {
-    id: "mem-24",
+    id: "mem-26",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi32.jpg",
@@ -217,7 +225,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
    {
-    id: "mem-25",
+    id: "mem-27",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi33.jpg",
@@ -225,7 +233,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
    {
-    id: "mem-26",
+    id: "mem-28",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi36.jpg",
@@ -233,7 +241,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
    {
-    id: "mem-27",
+    id: "mem-29",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi43.jpg",
@@ -241,7 +249,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
    {
-    id: "mem-28",
+    id: "mem-29",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi44.jpg",
@@ -249,19 +257,10 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     },
   },
    {
-    id: "mem-29",
-    aspect: "aspect-[4/5]",
-    image: {
-      src: "/image/Libi45.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  //industry
-   {
     id: "mem-30",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi78.jpg",
+      src: "/image/Libi45.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -269,15 +268,16 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-31",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi50.jpg",
+      src: "/image/Libi24.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
+  //industry
    {
     id: "mem-32",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi76.jpg",
+      src: "/image/Libi78.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -285,23 +285,23 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-33",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi75.jpg",
+      src: "/image/Libi50.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
-  {
+   {
     id: "mem-34",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi57.jpg",
+      src: "/image/Libi76.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
-  {
+   {
     id: "mem-35",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi58.jpg",
+      src: "/image/Libi75.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -309,16 +309,15 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-36",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi59.jpg",
+      src: "/image/Libi57.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
-  //uniEvents
   {
     id: "mem-37",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi64.jpg",
+      src: "/image/Libi58.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -326,15 +325,17 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-38",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi65.jpg",
+      src: "/image/Libi72.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
+
+  //uniEvents
   {
     id: "mem-39",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi66.jpg",
+      src: "/image/Libi64.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -342,7 +343,7 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-40",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi67.jpg",
+      src: "/image/Libi65.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -350,12 +351,28 @@ const GALLERY_PHOTOS: PhotoItem[] = [
     id: "mem-41",
     aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi68.jpg",
+      src: "/image/Libi66.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
     id: "mem-42",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi67.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-43",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi68.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-44",
     aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi73.jpg",
@@ -431,7 +448,7 @@ export default function Memories() {
       data-nav="dark"
       className="relative overflow-hidden bg-background text-foreground py-20 lg:py-28"
     >
-      <div className="mx-auto w-full max-w-[1440px] px-5 sm:px-8">
+      <div className="mx-auto w-full max-w-360 px-5 sm:px-8">
 
         {/* Section Label */}
         <div className="mb-4 flex items-center gap-3">
