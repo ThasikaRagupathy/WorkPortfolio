@@ -11,7 +11,6 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-import { Button } from "../../../components/ui/button";
 
 interface PhotoItem {
   id: string;
@@ -23,81 +22,82 @@ interface PhotoItem {
 }
 
 const GALLERY_PHOTOS: PhotoItem[] = [
+  //certifications
   {
     id: "mem-1",
-    aspect: "aspect-[16/9]",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi71.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-2",
+    aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi2.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-2",
-    aspect: "aspect-[16/9]",
+    id: "mem-3",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi31.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-4",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi7.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-5",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi8.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-6",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi26.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-7",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi82.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-8",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi83.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-9",
+    aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi56.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-3",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi27.jpg",
-      sizes: "(max-width: 640px, 100vw)",
-    },
-  },
-  {
-    id: "mem-4",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi32.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-5",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi19.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-6",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi10.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-7",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi25.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-8",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi45.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-9",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi40.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
     id: "mem-10",
-    aspect: "aspect-[16/9]",
+    aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi53.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
@@ -105,185 +105,260 @@ const GALLERY_PHOTOS: PhotoItem[] = [
   },
   {
     id: "mem-11",
-    aspect: "aspect-[16/9]",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi74.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  //events
+  {
+    id: "mem-12",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi1.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-13",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi3.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-14",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi6.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-15",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi10.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-16",
+    aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi14.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-12",
-    aspect: "aspect-[16/9]",
+    id: "mem-17",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi28.jpg",
+      src: "/image/Libi15.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-13",
-    aspect: "aspect-[16/9]",
+    id: "mem-18",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi30.jpg",
+      src: "/image/Libi17.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-14",
-    aspect: "aspect-[16/9]",
+    id: "mem-19",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi58.jpg",
+      src: "/image/Libi18.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-15",
-    aspect: "aspect-[16/9]",
+    id: "mem-20",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi44.jpg",
+      src: "/image/Libi25.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
+    id: "mem-21",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi7.jpg",
+      src: "/image/Libi79.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi64.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi65.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi66.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi67.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi71.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
-    image: {
-      src: "/image/Libi70.jpg",
-      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-    },
-  },
-  {
-    id: "mem-16",
-    aspect: "aspect-[16/9]",
+    id: "mem-22",
+    aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi69.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
   {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-23",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi72.jpg",
+      src: "/image/Libi30.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-24",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi32.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-25",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi73.jpg",
+      src: "/image/Libi33.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-26",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi74.jpg",
+      src: "/image/Libi36.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-27",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi75.jpg",
+      src: "/image/Libi43.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-28",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi76.jpg",
+      src: "/image/Libi44.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-29",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi77.jpg",
+      src: "/image/Libi45.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
+  //industry
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-30",
+    aspect: "aspect-[4/5]",
     image: {
       src: "/image/Libi78.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-31",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi79.jpg",
+      src: "/image/Libi50.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-32",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi80.jpg",
+      src: "/image/Libi76.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
    {
-    id: "mem-17",
-    aspect: "aspect-[16/9]",
+    id: "mem-33",
+    aspect: "aspect-[4/5]",
     image: {
-      src: "/image/Libi39.jpg",
+      src: "/image/Libi75.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-34",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi57.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-35",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi58.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-36",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi59.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  //uniEvents
+  {
+    id: "mem-37",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi64.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-38",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi65.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-39",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi66.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-40",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi67.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-41",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi68.jpg",
+      sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+    },
+  },
+  {
+    id: "mem-42",
+    aspect: "aspect-[4/5]",
+    image: {
+      src: "/image/Libi73.jpg",
       sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
     },
   },
@@ -356,7 +431,7 @@ export default function Memories() {
       data-nav="dark"
       className="relative overflow-hidden bg-background text-foreground py-20 lg:py-28"
     >
-      <div className="mx-auto max-w-330 px-5 sm:px-8">
+      <div className="mx-auto w-full max-w-[1440px] px-5 sm:px-8">
 
         {/* Section Label */}
         <div className="mb-4 flex items-center gap-3">
@@ -388,47 +463,40 @@ export default function Memories() {
           </p>
         </div>
 
-        {/* Gallery */}
+        {/* Gallery: render each item once, in array order */}
         <div
           ref={galleryParent}
-          className="columns-1 sm:columns-2 lg:columns-3 gap-6 pt-10"
+          className="grid grid-cols-1 gap-5 pt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
           {GALLERY_PHOTOS.map((item, index) => (
-            <div
+            <button
               key={item.id}
-              className="break-inside-avoid mb-6"
+              type="button"
+              onClick={() => setSelectedIndex(index)}
+              aria-label={`View photo ${index + 1} of ${GALLERY_PHOTOS.length}`}
+              className="group relative block w-full cursor-pointer overflow-hidden rounded-lg border border-border bg-card shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
             >
-              <button
-                type="button"
-                onClick={() => setSelectedIndex(index)}
-                className="group relative block w-full cursor-pointer overflow-hidden rounded-lg border border-border bg-card shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-              >
+              <div className={`relative w-full ${item.aspect} overflow-hidden bg-muted`}>
+                <img
+                  src={item.image.src}
+                  sizes={item.image.sizes}
+                  alt={`Memory ${index + 1}`}
+                  loading={index < 8 ? "eager" : "lazy"}
+                  decoding="async"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
                 <div
-                  className={`relative w-full ${item.aspect} overflow-hidden bg-muted`}
+                  className="absolute top-3 right-3 flex size-9 items-center justify-center rounded-md border border-white/20 bg-black/50 text-white opacity-0 backdrop-blur-md transition-all duration-300 group-hover:opacity-100"
+                  aria-hidden="true"
                 >
-                  <img
-                    src={item.image.src}
-                    data-wvc-sizes={item.image.sizes}
-                    loading="lazy"
-                    decoding="async"
-                    className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                  />
-
-                  {/* Dark hover overlay */}
-                  <div className="absolute inset-0 bg-black/0 transition-colors duration-300 group-hover:bg-black/20" />
-
-                  {/* Expand icon */}
-                  <div
-                    className="absolute top-3 right-3 flex size-9 items-center justify-center rounded-md border border-white/20 bg-black/50 text-white opacity-0 backdrop-blur-md transition-all duration-300 group-hover:opacity-100"
-                    aria-hidden="true"
-                  >
-                    <Expand className="size-4" />
-                  </div>
-
-                  {/* Bottom label */}
+                  <Expand className="size-4" />
                 </div>
-              </button>
-            </div>
+                <span className="absolute bottom-3 left-3 rounded bg-black/60 px-2 py-1 font-mono text-xs text-white">
+                  {String(index + 1).padStart(2, "0")} / {GALLERY_PHOTOS.length}
+                </span>
+              </div>
+            </button>
           ))}
         </div>
       </div>
@@ -489,11 +557,6 @@ export default function Memories() {
             <ChevronRight className="size-6 sm:size-7" />
           </button>
 
-          {/* Bottom caption */}
-          <div className="absolute bottom-0 left-0 right-0 z-20 flex justify-center px-6 pb-5 sm:pb-7">
-            <div className="max-w-2xl rounded-full border border-white/10 bg-black/40 px-5 py-2.5 text-center text-xs text-white/70 backdrop-blur-md">
-            </div>
-          </div>
         </div>
       )}
     </section>
